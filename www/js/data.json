@@ -1,0 +1,47 @@
+{
+	"ads_list" :[
+		{
+			"id_ad" : 824,
+			"ad_title" : "Nissan Xterra 2007",
+			"category_title" : "Voiture",
+			"commune_name" : "Port-au-Prince",
+			"devise": "$",
+			"price" : 11000,
+			"ad_description" : "Very good deal : Nissan Exterra 2007, V6, gazoline, 4x4, en très bon état, 76 000 miles (seulement). Whatsapp (31910404) pour plus de photos et/ou infos",
+			"image_filename" : [
+				{
+				  "image" :"img-20160315-wa0000-jpga8eef1ad-ab26-436e-bf31-23bf735bb7df"
+				},
+				{
+				  "image" :"img-20160315-wa0001-jpg2427980f-4fe0-4dea-8157-8e43c9ddb180"
+				}			
+			]
+		},	
+		{
+			"id_ad" : 843,
+			"ad_title" : "Grand Vitara XL7",
+			"category_title" : "Voiture",
+			"commune_name" : "Port-au-Prince",
+			"devise": "$",
+			"price" : 8500,
+			"ad_description" : "Tres belle voiture presque neuve a vendre.suzuki grand vitara xl7 annee 2002 a peine dedouaner 6 cylindre et 4x4.pouvant prendre 8 personnes avec une derniere range de coussin.le prix est en faite negociable",
+			"image_filename" : [
+				{
+				  "image" :"fb-img-1458943954223-jpgb3606202-959a-4da3-a9d5-3a108133092e"
+				},
+				{
+				  "image" :"fb-img-1458943959349-jpg153d4893-163b-4c14-829b-6afe99d630d0"
+				},
+				{
+				  "image" :"fb-img-1458943964893-jpg589adaca-de53-4f72-bbd0-63e990aec1be"
+				}
+			
+			]
+		}
+	
+	
+	
+	]
+
+}
+

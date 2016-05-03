@@ -1,0 +1,24 @@
+<ion-view view-title="Toutokazz">
+    <ion-nav-buttons side="secondary">
+       <button class="button button-clear icon ion-android-search"> </button>
+      <button class="button button-clear icon ion-android-add"> </button>
+    </ion-nav-buttons>
+  <div class="bar bar-subheader item-input-inset bar-light">
+  <label class="item-input-wrapper">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" placeholder="Recherche">
+  </label>
+</div>
+  <ion-content class="has-subheader">
+    <ion-list>
+      <ion-item  href="#/app/annonces/{{item.id_ad}}"  ng-repeat="item in ads.ads_list"
+         class="item-thumbnail-left custom-thumbnail">      
+        <img  class="image-border"  ng-src="/photos/{{item.image_filename[0].image}}.jpg">
+        <span style="font-size:10px;"><i class="icon ion-android-pin"></i> {{item.commune_name}}</span>
+        <h2>{{item.ad_title}}</h2>
+        <p>{{item.ad_description}}</p>
+        <h2>{{item.devise}} {{item.price}}</h2>
+       </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

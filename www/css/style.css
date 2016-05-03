@@ -1,0 +1,45 @@
+/* Empty. Add your own CSS if you like */
+
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+.item .item-image {
+   margin: 0px;
+   padding: 0px;
+  
+} 
+
+.item .item-description {
+    padding: 10px;
+    text-align: justify;
+      
+} 
+.item-thumbnail-left, .item-thumbnail-left .item-content {
+ padding-left: 146px;
+ min-height: 150px;
+
+}
+.image-border {
+  
+        border-radius: 3px;
+    border: 2px #fff solid;
+    box-shadow: 0 2px 3px 0 rgba(130,130,130,0.4);
+}
+
+.item-thumbnail-left, .item-thumbnail-left .item-content  img{
+
+ min-width: 127px;
+ min-height: 120px;
+
+}

@@ -1,0 +1,41 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Créer un Compte</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closesignUp()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="dosignup()">
+      <div class="list list-inset">
+        <label class="item item-input">
+          <span class="input-label">Nom</span>
+          <input type="text" ng-model="signUpData.nom">
+        </label>
+           <label class="item item-input">
+          <span class="input-label">Prenom</span>
+          <input type="text" ng-model="signUpData.prenom">
+        </label>
+           <label class="item item-input">
+          <span class="input-label">Email</span>
+          <input type="text" ng-model="signUpData.email">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Nom de l'Entreprise</span>
+          <input type="text" ng-model="signUpData.nomEntreprise">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Mot de Passe</span>
+          <input type="password" ng-model="signUpData.password">
+        </label>
+           <label class="item item-input">
+          <span class="input-label">Confirmer le mot de Passe</span>
+          <input type="password" ng-model="signUpData.confirmpassword">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Valider</button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>

@@ -1,0 +1,19 @@
+<ion-view view-title="Toutokazz">
+  <ion-content>
+  <ion-list>
+    <div ng-repeat="section in categories.sections_list">
+      <ion-item class="item-avatar-left"
+                    ng-click="toggleSection(section)"
+                    ng-class="{active: isSectionShown(section)}">
+         <img ng-src="/img/icons/{{section.icon}}.png"/>
+            {{section.section_title}}
+          </ion-item>
+           <ion-item href="#" class=" item item-icon-right item-accordion"
+                    ng-repeat="item in section.categories"
+                    ng-show="isSectionShown(section)">
+            {{item.category_title}} <i class="icon ion-arrow-right-c"></i>
+          </ion-item>
+          </div>
+  </ion-list>
+  </ion-content>
+</ion-view>

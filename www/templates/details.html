@@ -1,0 +1,51 @@
+<ion-view view-title="Toutokazz">
+  <div class="bar bar-subheader  bar-light">
+	  	   <h4  ng-repeat="item in ads.ads_list | filter: { id_ad : selectedAd}">
+			   {{item.ad_title}}
+		   </h4>
+		   <a class="button button-clear icon ion-chevron-right pull-right"></a>
+   </div>
+  <ion-content class="has-subheader">
+	   <div class="list" ng-repeat="item in ads.ads_list | filter: { id_ad : selectedAd}">
+		   <ion-slide-box >
+			   <ion-slide ng-repeat="img in item.image_filename">
+				   <div href="#"  item-width="350" item-height="280"  class="item item-image">
+					<img  width="350"" height="280" ng-src="/photos/{{img.image}}.jpg"/>   
+				 </div>
+			   </ion-slide>			   
+		   </ion-slide-box>
+		<div class="item">
+			<h3>{{item.devise}}	{{item.price}}</h4>
+		</div>
+		<div class="item item-divider"> Information </div>
+				<div class="item">
+    		<div class="list list-insets">
+				<div class="item">
+					<label>Marque :</label>
+				</div>
+				<div class="item">
+					<label>Modele :</label>
+				</div>
+				<div class="item">
+					<label>Annee :</label>
+				</div>
+				<div class="item">
+					<label>Transmission :</label>
+				</div>
+			</div>
+		</div> 
+		<div class="item item-divider"> Description </div>
+
+		<div class="item item-text-wrap item-description">
+    		<p>{{item.ad_description}}</p> 
+		</div> 
+		 <div class="item item-text-wrap item-footer">
+		   <h4>@Toutokaz</h4>
+	   </div>
+	   </div>
+  </ion-content>
+  <div class="bar bar-footer">
+   <button class="button  button-positive icon-left ion-android-call">Telephone</button>
+  <button class="button   button-positive  icon-left ion-android-mail">Email</button>
+</div>
+</ion-view>

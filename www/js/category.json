@@ -1,0 +1,70 @@
+{
+ "sections_list":[
+ {
+	"id_section": 1,
+	"section_title" : "Véhicules",
+	"icon": "image-vehicules-32",
+	"show" : false,
+	"categories" :[
+		{
+			"id_category" : 1,
+			"category_title" : "Voiture",
+			"category_order" : 1
+		},		
+		{
+			"id_category" : 2,
+			"category_title" : "Moto",
+			"category_order" : 2
+		},
+		{
+			"id_category" : 3,
+			"category_title" : "Pièces auto-moto",
+			"category_order" : 3
+		}
+ ]},
+  {
+	"id_section": 2,
+	"section_title" : "Immobilier",
+	"icon": "image-immobilier",
+	"show" : false,
+	"categories" :[
+		{
+			"id_category" : 5,
+			"category_title" : "Maisons à vendre",
+			"category_order" : 5
+		},		
+		{
+			"id_category" : 6,
+			"category_title" : "Maisons à louer",
+			"category_order" : 6
+		},
+		{
+			"id_category" : 7,
+			"category_title" : "Colocation",
+			"category_order" : 7
+		}
+ ]},
+   {
+	"id_section": 3,
+	"section_title" : "Maison",
+    "icon": "image-maison-32",
+	"show" : false,
+	"categories" :[
+		{
+			"id_category" : 10,
+			"category_title" : "Ameublement",
+			"category_order" : 10
+		},		
+		{
+			"id_category" : 11,
+			"category_title" : "art de la table",
+			"category_order" : 11
+		},
+		{
+			"id_category" : 11,
+			"category_title" : "Electroménager",
+			"category_order" : 11
+		}
+ ]} ]
+ 
+ }
